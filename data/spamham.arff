@@ -1,0 +1,14 @@
+@relation hamspam
+
+@attribute "text" String
+@attribute "class" {ham, spam}
+
+@data
+"Hi, how are you? Can I get an update on your KPIs?", ham
+"Buy one, get one free!", spam
+"Log on to www.thisisascam.com and get a chance to win a brand new car absolutely free!", spam
+"Hi, this is Asma, please load me 100 rupees balance, I will return promise", spam
+"Just talked to Yi, you will be involved in the handover process from next week. Good luck!", ham
+"Hi! Any updates on the logging functionality?", ham
+"Please approve my request for a new laptop", ham
+"A brand new iPhone 11 Pro Max can be yours! Get a lottery ticket for only 200 dollars!", spam
